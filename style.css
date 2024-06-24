@@ -185,5 +185,12 @@ ul li  {
 
 
 .team-list:hover{
-transform: rotateY(80deg);
+transform: rotateY(180deg);
+transition: 0.8s;
+backface-visibility: hidden;
+transform-style: preserve-3d;
+
 }
+
+
+
